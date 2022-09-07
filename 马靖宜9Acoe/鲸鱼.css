@@ -1,0 +1,34 @@
+.whale{
+    position:absolute;
+    width:128px;
+    height:128px;
+    background-image:url("鲸鱼.png");
+    bottom:0px;
+  }
+  
+  .monster{
+    position:absolute;
+    width:128px;
+    height:128px;
+    background-image:url("生气怪兽.png");
+    bottom:0px;
+  }
+  .ocean{
+    position: absolute;
+    bottom: 0px;
+    background-image:url('背景2.png');
+    background-repeat: repeat;
+    animation: mymove 600s infinite linear;
+    -webkit-animation: mymove 600s infinite linear;
+    width: 100%;
+    height: 750px;
+  }
+
+  @keyframes mymove {
+    from {
+        background-position: 70000%;
+    }
+    to {
+        background-position: 0%;
+    }
+  }
